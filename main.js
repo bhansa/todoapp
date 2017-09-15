@@ -17,9 +17,16 @@ function add(){
 }
 
 function reset(){
-  //flush
-  localStorage.removeItem("data");
+
+  //ask
+  if(window.confirm("Are you sure ? \nIt will delete all cards.")){
+
+    //flush
+    localStorage.removeItem("data");
+
+  }
   
   //re pop
   populate();
+
 }
