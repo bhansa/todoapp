@@ -4,6 +4,10 @@ body
   font-family: 'Open Sans',Verdana, sans-serif;
 }
 
+button
+{
+  cursor: pointer;
+}
 .add-to-do button
 {
   background:#846BFF;
